@@ -18,7 +18,6 @@ router.get('/list/:num', function(req, res, next) {
     })
 });
 
-/* GET users listing. */
 router.get('/movie_from_title/:title', function(req, res, next) {
     console.log(req.params); 
     title = req.params.title;
@@ -63,6 +62,5 @@ router.get('/movie_from_rating/:rating', function(req, res, next) {
         })
     })
 });
-
 
 module.exports = router;
