@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const MongoClient = require ('mongodb').MongoClient;
-const uri = 'mongodb+srv://kevin-king:0117kevin.@cluster0.zuvcs.mongodb.net/Cluster0?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://kevin-king:?.@cluster0.zuvcs.mongodb.net/Cluster0?retryWrites=true&w=majority'
 
 router.get('/list/:num', function(req, res, next) {
     console.log(req.params); 
